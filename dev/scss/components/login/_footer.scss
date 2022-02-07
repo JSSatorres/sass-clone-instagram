@@ -1,0 +1,23 @@
+@use "../../helpers" as *;
+
+.footer-index {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 200pxh;
+
+    &-div {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+
+        &-item {
+            font-size: 13px;
+            line-height: 14px;
+            margin: 0px 8px 12px;
+            color: $mediumGrey;
+        }
+    }
+}

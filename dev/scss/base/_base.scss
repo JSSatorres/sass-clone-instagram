@@ -1,0 +1,11 @@
+@use "../helpers" as *;
+
+body{
+    margin: 0;
+    padding: 50px;
+    box-sizing: content-box;
+    background-color: $notWhite;
+    font-family:$mainFont;
+    color: $darkGrey;
+    width: 100vw;
+}

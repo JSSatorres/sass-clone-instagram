@@ -1,0 +1,26 @@
+
+.login{
+    display: flex;
+    justify-content:  center;
+    &-picture{
+        height: 650px;
+    }
+    .mobile-background {
+        background-image: url("../../../../public/assets//img/mobileBackground.png");
+        background-size: 454px 618px;
+        width: 454px;
+        height: 618px;
+
+        &-image {
+        margin-left: 151px;
+        position: relative;
+          * {
+            height: 427px;
+            left: 0;
+            position: absolute;
+            top: 100px;
+            width: 240px;
+            }
+        }
+    }
+}
