@@ -54,4 +54,11 @@ body {
   width: 240px;
 }
 
+.navbar {
+  display: flex;
+}
+.navbar-icons {
+  display: flex;
+}
+
 /*# sourceMappingURL=style.css.map */
